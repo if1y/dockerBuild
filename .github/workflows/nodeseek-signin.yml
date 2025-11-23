@@ -5,7 +5,7 @@ on:
     inputs:
       repo_source:
         description: 'Repo Branch / Tag / Commit ID'
-        default: 'master'
+        default: 'main'
         required: true
       docker_tags:
         description: 'Docker Tags (seperate with comma)'
