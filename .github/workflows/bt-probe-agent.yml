@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: https://cnb.cool/btpanel/bt-probe-agent.git#main
-          file: Docker/Dockerfile
+          file: Dockerfile
           platforms: linux/amd64
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/bt-probe-agent:latest
